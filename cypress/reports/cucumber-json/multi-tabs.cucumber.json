@@ -1,0 +1,42 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Cross-origin test",
+    "line": 1,
+    "id": "cross-origin-test",
+    "tags": [],
+    "uri": "multi-tabs.feature",
+    "elements": [
+      {
+        "id": "cross-origin-test;as-a-user,-i-can-use-different-origins-in-one-test",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "As a user, I can use different origins in one test",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 3,
+            "name": "I change the origin of my test configuration",
+            "result": {
+              "status": "passed",
+              "duration": 4911000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
+            "name": "I visit Base url",
+            "result": {
+              "status": "passed",
+              "duration": 523000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
